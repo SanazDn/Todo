@@ -1,0 +1,82 @@
+.item {
+  margin: 1rem 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: #c2e7f0;
+}
+
+.item:last-of-type {
+  border-bottom: none;
+}
+
+.item figure {
+  margin: 0;
+  padding: 0;
+  width: 70%;
+}
+
+.item blockquote {
+  margin: 0;
+  text-align: left;
+  font-size: 1.5rem;
+  color: #212929;
+}
+
+.item button {
+  width: 15%;
+  margin: 10px;
+}
+
+.item p {
+  margin: 0;
+  margin-bottom: 0.25rem;
+}
+
+.item figcaption {
+  font-style: italic;
+  color: #566d6d;
+}
+
+
+.checkbox {
+  text-align: center; 
+  position: relative;
+  right: 0;
+ 
+
+}
+
+.flex:hover {
+  background-color: #0d6efd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.fullWidthDiv {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.print {
+  background-color: blue;
+}
+
+.checked {
+  background-image:url(https://cdn-icons-png.flaticon.com/512/190/190411.png);
+ display: block;
+  background-repeat:no-repeat;
+ background-size:contain;
+ height:50px;width:50px;
+}
+
+.unchecked {
+  background-image:url(https://cdn-icons-png.flaticon.com/512/399/399274.png);
+  display: block;
+  background-repeat:no-repeat;
+ background-size:contain;
+ height:50px;width:50px;
+}
